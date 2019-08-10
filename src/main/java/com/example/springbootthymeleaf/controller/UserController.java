@@ -32,7 +32,7 @@ public class UserController {
         model.addAttribute("list", lst);
         return "demo2";
     }
-    
+
     private String convertGPA(double grade) {
         if (grade >= 90) {
             return "A";
